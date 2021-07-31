@@ -1,0 +1,13 @@
+export { createPost } from "./createPost";
+export { editPost } from "./editPost";
+export { deletePost } from "./deletePost";
+export { getSinglePost } from "./getSinglePost";
+export { getPosts } from "./getPosts";
+export { getMainPost } from "./getMainPost";
+export { getPrimaryPosts } from "./getPrimaryPosts";
+export { canBeMain } from "./canBeMain";
+export { canBePrimary } from "./canBePrimary";
+export { getJournalistPosts } from "./getJournalistPosts";
+export { getPostsBySearch } from "./getPostsBySearch";
+export { getCatPosts } from "./getCatPosts";
+export { isPostLight } from "./isLight";

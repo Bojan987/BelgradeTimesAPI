@@ -1,0 +1,10 @@
+export { getComments } from "./getComments";
+export { getSingleComment } from "./getSingleComment";
+export { createComment } from "./createComment";
+export { editComment } from "./editComment";
+export { deleteComment } from "./deleteComment";
+export { likes } from "./like";
+export { dislikes } from "./dislike";
+export { replyToComment } from "./replyToComment";
+export { getPostComments } from "./getPostComments";
+export { deleteAllForPost } from "./deleteAllForPost";
