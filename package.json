@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node ./dist/app.js",
+    "start": "nodemon --exec babel-node src/app.js debug:true",
     "dev": "nodemon --exec babel-node src/app.js debug:true",
     "build": "babel ./src --out-dir dist",
     "clean:dev": "rm -rf ./node_modules package-lock.json",
