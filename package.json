@@ -1,11 +1,10 @@
 {
-  "type":"module",
   "name": "news-magazine",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node ./src/app.js",
+    "start": "node ./dist/app.js",
     "dev": "nodemon --exec babel-node src/app.js debug:true",
     "build": "babel ./src --out-dir dist",
     "clean:dev": "rm -rf ./node_modules package-lock.json",
